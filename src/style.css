@@ -1,44 +1,44 @@
 @import url('https://fonts.cdnfonts.com/css/lt-asus-print');
 
 .title {
-    font-family: 'LT Asus Print', sans-serif;
+  font-family: 'LT Asus Print', sans-serif;
 }
 
 .refresh-btn,
 .submit-btn {
-    font-family: 'LT Asus Print', sans-serif;
-    background: white;
-    color: black;
-    border: black 2px solid;
-    box-shadow: 2px 3px;
-    font-weight: 600;
-    height: 2rem;
+  font-family: 'LT Asus Print', sans-serif;
+  background: white;
+  color: black;
+  border: black 2px solid;
+  box-shadow: 2px 3px;
+  font-weight: 600;
+  height: 2rem;
 }
 
 .leaderboard {
-    border: 2px black solid;
+  border: 2px black solid;
 }
 
 .person-info:nth-child(odd) {
-    background: #b9bdc1;
+  background: #b9bdc1;
 }
 
 .person {
-    font-family: 'LT Asus Print', sans-serif;
-    font-weight: bold;
-    height: 0.8rem;
-    width: 100%;
+  font-family: 'LT Asus Print', sans-serif;
+  font-weight: bold;
+  height: 0.8rem;
+  width: 100%;
 }
 
 .name,
 .score {
-    border: black 2px solid;
-    font-family: 'LT Asus Print', sans-serif;
-    font-weight: bold;
+  border: black 2px solid;
+  font-family: 'LT Asus Print', sans-serif;
+  font-weight: bold;
 }
 
 .add-score,
 .recent-score {
-    font-family: 'LT Asus Print', sans-serif;
-    font-weight: bold;
+  font-family: 'LT Asus Print', sans-serif;
+  font-weight: bold;
 }
