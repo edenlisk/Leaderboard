@@ -19,7 +19,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** This is simple website that keep track of scores in different games
+**Leaderboard** This is simple website that keep track of scores in different games. It uses API to save and Retrieve all records
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,6 +66,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **Leaderboard Basic Structure**
+- **Create players with scores**
+- **Retrieve all Existing players with scores**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -14,7 +14,7 @@ const renderRecord = (record) => {
   document.querySelector('.leaderboard').appendChild(recordContainer);
 };
 
-export const retrieveScores = async () => {
+const retrieveScores = async () => {
   document.querySelector('.leaderboard').innerHTML = '';
   const request = await fetch(url);
   const info = await request.json();
