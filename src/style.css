@@ -42,3 +42,12 @@
   font-family: 'LT Asus Print', sans-serif;
   font-weight: bold;
 }
+
+.message-container {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.message-container.active {
+  opacity: 1;
+}
