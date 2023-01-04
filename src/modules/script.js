@@ -1,4 +1,5 @@
 // Super Death Row unique ID: "p4T1fCGuGRNNPTH4EMZI"
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/p4T1fCGuGRNNPTH4EMZI/scores';
 const userName = document.querySelector('.name');
 const score = document.querySelector('.score');
 const message = document.querySelector('.message-container');
@@ -15,7 +16,7 @@ const renderRecord = (record) => {
 
 export const retrieveScores = async () => {
   document.querySelector('.leaderboard').innerHTML = '';
-  const request = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/p4T1fCGuGRNNPTH4EMZI/scores');
+  const request = await fetch(url);
   const info = await request.json();
   info.result.forEach((record) => {
     renderRecord(record);
@@ -39,7 +40,7 @@ const saveScore = async () => {
     user: userName.value,
     score: score.value,
   };
-  const request = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/p4T1fCGuGRNNPTH4EMZI/scores', {
+  const request = await fetch(url, {
     method: 'POST',
     headers: {
       'Content-type': 'application/json',
