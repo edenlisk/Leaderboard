@@ -1,5 +1,7 @@
 # Leaderboard
 
+<img src="https://www.teambuildr.com/hs-fs/hubfs/Leaderboard-Front%20(no%20padding).png?width=2109&name=Leaderboard-Front%20(no%20padding).png"/>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -72,8 +74,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Live Demo <a name="live-demo"></a>
-No live demo available
-[comment]: <> (Click [here]&#40;&#41; to view live demo.)
+click [here](https://edenlisk.github.io/Leaderboard/dist) to view live demo
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
